@@ -5,11 +5,11 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Gallary = () => {
   return (
-    <div className="w-full bg-[rgb(196,196,196)] h-[559px] grid grid-cols-2 gap-5">
+    <div className="w-full bg-[rgb(196,196,196)] h-[559px] grid md:grid-cols-2 md:gap-5 md:px-0">
       <div className=" flex flex-col justify-center">
         <img src={circle} alt="" className="w-[601px] absolute" />
-        <div className="relative left-28">
-          <h1 className="w-2/3 text-3xl tracking-wide font-semibold leading-snug text-black ">
+        <div className="relative md:left-28 p-5">
+          <h1 className="md:w-2/3 md:text-3xl tracking-wide font-semibold leading-snug text-black ">
             {" "}
             Make daily meals healthy and moderate
           </h1>

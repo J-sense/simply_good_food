@@ -20,7 +20,7 @@ const Home = () => {
         <Accordion />
       </div>
       <Feedbacks />
-      <div className="bg-[#f9f9f9] mt-32">
+      <div className="bg-[#f9f9f9] mt-10 md:mt-32">
         <Footer />
       </div>
     </>

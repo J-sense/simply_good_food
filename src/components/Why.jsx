@@ -26,7 +26,7 @@ const Why = () => {
   ];
   return (
     <div className="mt-28">
-      <p className="text-5xl font-semibold text-center mb-10 md:mb-14">
+      <p className="md:text-5xl text-3xl font-semibold text-center mb-10 md:mb-14">
         Why Simply Good Food{" "}
       </p>
       <div className="grid md:grid-cols-3 items-center md:px-4 md:gap-4 gap-8">

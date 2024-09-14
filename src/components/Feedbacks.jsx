@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import img from "/profile.jpg"
-import img2 from "/profile2.jpg"
+import img from "/profile.png";
+
 const Feedbacks = () => {
   const responsive = {
     superLargeDesktop: {
@@ -40,7 +40,7 @@ const Feedbacks = () => {
       message:
         "Working with them has been a game-changer for our business. Excellent results!",
       rating: 4,
-      avatar: img2,
+      avatar: img,
     },
     {
       id: 3,
@@ -58,28 +58,28 @@ const Feedbacks = () => {
       message:
         "I highly recommend them. Their expertise helped us scale quickly.",
       rating: 4.5,
-      avatar: img2,
+      avatar: img,
     },
   ];
 
   return (
     <div>
-      <div className="my-20">
+      <div className="md:my-20 my-10">
         <p className="md:text-5xl text-xl font-semibold text-center ">
           Feedbacks
         </p>
       </div>
-      <div>
+      <div className="gap-24">
         <Carousel responsive={responsive}>
-         {
-            testimonials.map((item,idx)=>(
-                <div>
-                    <img src={item.img} alt="" />
-                    <h3>{item.name}</h3>
-                    <p>{item.message}</p>
-                </div>
-            ))
-         }
+          {testimonials.map((item, idx) => (
+            <div className="md:p-2 bg-slate-100 items-center gap-2 md:mr-10 py-9 flex">
+              <img src={item.avatar} alt="" className="rounded-full w-24  h-24" />
+              <div>
+                <h3 className="text-md font-semibold ">{item.name}</h3>
+                <p className="text-sm">{item.message}</p>
+              </div>
+            </div>
+          ))}
         </Carousel>
       </div>
     </div>

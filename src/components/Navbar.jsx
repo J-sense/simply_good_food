@@ -56,10 +56,10 @@ const Navbar = () => {
             </li>
           ))}
           <div className="relative">
-            <FaRegCircleUser className="md:hidden" />
+            <FaRegCircleUser className="md:hidden " />
           </div>
         </ul>
-        <FaRegCircleUser className="hidden md:block" />
+        <FaRegCircleUser className="hidden md:block h-6 w-6" />
       </header>
     </div>
   );

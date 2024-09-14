@@ -81,7 +81,7 @@ const CarouselCard = () => {
   //   }, []);
   return (
     <div className="my-20">
-      <p className="md:text-5xl text-xl font-semibold text-center mb-10 md:mb-14">
+      <p className="md:text-5xl text-3xl font-semibold text-center mb-10 md:mb-14">
         New & Trending Menu
       </p>
       <Carousel responsive={responsive}>

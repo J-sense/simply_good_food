@@ -5,10 +5,12 @@ const Accordion = () => {
   return (
     <>
       <div className="my-20">
-        <p className="md:text-5xl text-xl font-semibold text-center ">
+        <p className="md:text-5xl text-3xl font-semibold text-center ">
           New & Trending Menu
         </p>
-        <p className="mb-10 md:mb-10 mt-4  text-center">Simply Good Food prepares and delivers organically sourced, fresh meals to your door nationwide. Unlike other meal kit delivery services that need preparation and cleaning, our meals are delivered ready to consume. Our mission is to make healthy eating easy and enjoyable while not sacrificing flavor. Do you have a question regarding our shipping service?</p>
+        <p className="md:mb-10 mt-4 items-center +
+        
+        md:text-sm md:text-center">Simply Good Food prepares and delivers organically sourced, fresh meals to your door nationwide. Unlike other meal kit delivery services that need preparation and cleaning, our meals are delivered ready to consume. Our mission is to make healthy eating easy and enjoyable while not sacrificing flavor. Do you have a question regarding our shipping service?</p>
       </div>
       <div className="space-y-2">
         <div className="collapse collapse-plus bg-base-200">

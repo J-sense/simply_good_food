@@ -1,9 +1,13 @@
 import React from "react";
 import logo from "/logo.png";
+import { GrInstagram } from "react-icons/gr";
+import { FaFacebookSquare } from "react-icons/fa";
+import { RiTwitterXLine } from "react-icons/ri";
+
 const Footer = () => {
   return (
     <div>
-      <footer className="footer text-base-content p-10 w-[80%] mx-auto">
+      <footer className="footer text-base-content p-10 md:w-[80%] mx-auto">
         <nav>
           <img src={logo} alt="" />
         </nav>
@@ -31,7 +35,15 @@ const Footer = () => {
                 placeholder="Enter Your Email"
                 className="input input-bordered join-item"
               />
+              <div>
               <button className="btn btn-success join-item">Subscribe</button>
+              <div className="flex gap-2 mt-2">
+              <GrInstagram className="text-pink-700 h-6 w-6"/>
+              <FaFacebookSquare className="text-blue-500 h-6 w-6"/>
+              <RiTwitterXLine className="text-purple-500 h-6 w-6"/>
+              </div>
+              </div>
+             
             </div>
           </fieldset>
         </form>
