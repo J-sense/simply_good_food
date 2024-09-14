@@ -6,7 +6,7 @@ import subtract from "/Subtract.png";
 
 const HeroSection = () => {
   return (
-    <div className="md:mt-40 mt-20 grid md:grid-cols-2 gap-20 md:gap-5">
+    <div className="md:my-56 my-20 grid md:grid-cols-2 gap-20 md:gap-5">
       <div className="flex flex-col mt-6 leading-10">
         <h1 className="text-5xl tracking-wide font-semibold leading-snug text-black">
           Keep track of <br />
